@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ddcf9e7ee6b4adc8cb0226d0dc7f163" Name="Diagram1">
+        <EntityTypeShape EntityType="SecurityModel.Answer" Width="1.5" PointX="6" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.Exam" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.Question" Width="1.5" PointX="3.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.Result" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.ResultInfo" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.Test" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.Theme" Width="1.5" PointX="1.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.User" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SecurityModel.UserInfo" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <AssociationConnector Association="SecurityModel.FK_Answer_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_ResultInfo_Answer" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_Exam_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_Exam_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_Question_Ticket" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_ResultInfo_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_Result_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_Result_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_ResultInfo_Result" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_Ticket_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="SecurityModel.FK_UserInfo_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

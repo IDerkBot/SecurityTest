@@ -1,0 +1,26 @@
+﻿<Window
+	x:Class="SecurityTest.Views.Windows.AddQuestionWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:local="clr-namespace:SecurityTest.Views.Windows"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	Title="AddQuestionWindow"
+	Width="400"
+	Height="350"
+	mc:Ignorable="d">
+	<StackPanel>
+		<TextBox
+			Name="TbContent"
+			MinHeight="200"
+			Cursor="IBeam"
+			MaxLines="10"
+			Text="{Binding Ask}"
+			TextWrapping="Wrap" />
+		<Button
+			Margin="0,5"
+			Click="ButtonBase_OnClick"
+			Content="Изменить"
+			Foreground="White" />
+	</StackPanel>
+</Window>
